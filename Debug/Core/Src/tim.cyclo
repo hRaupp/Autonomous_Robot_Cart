@@ -1,0 +1,11 @@
+tim.c:35:6:MX_TIM1_Init	6
+tim.c:99:6:MX_TIM2_Init	8
+tim.c:168:6:MX_TIM3_Init	4
+tim.c:212:6:MX_TIM4_Init	4
+tim.c:256:6:MX_TIM10_Init	2
+tim.c:282:6:MX_TIM11_Init	2
+tim.c:308:6:HAL_TIM_PWM_MspInit	4
+tim.c:365:6:HAL_TIM_Base_MspInit	4
+tim.c:426:6:HAL_TIM_MspPostInit	4
+tim.c:505:6:HAL_TIM_PWM_MspDeInit	4
+tim.c:568:6:HAL_TIM_Base_MspDeInit	4
