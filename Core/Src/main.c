@@ -220,9 +220,6 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3); // velocidade motor direito   25kHz
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4); // velocidade motor esquerdo  25kHz
 
-	//strncpy(msg, "Raupp - Tro \n Medicao de DC, Periodo e Tempo ativo\n\r", tam_msg);
-	//HAL_UART_Transmit(&huart2, msg , strlen(msg), tout); // transmitindo msg
-	// strncpy(msg, " ", tam_msg); // limpando a variavel mensagem para evitar escrita por cima
 
   /* USER CODE END 2 */
 
