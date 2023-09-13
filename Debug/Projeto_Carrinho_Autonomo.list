@@ -908,10 +908,10 @@ int main(void)
  80008c4:	210c      	movs	r1, #12
  80008c6:	4824      	ldr	r0, [pc, #144]	; (8000958 <main+0xe8>)
  80008c8:	f002 f870 	bl	80029ac <HAL_TIM_PWM_Start>
-
-	//estado_atual = frente;
-
 	while (1) {
+
+
+//============================= Maquina de estados =============================//
 
 		switch (estado_atual) {
  80008cc:	4b23      	ldr	r3, [pc, #140]	; (800095c <main+0xec>)

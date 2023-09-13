@@ -226,9 +226,10 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-	//estado_atual = frente;
-
 	while (1) {
+
+
+//============================= Maquina de estados =============================//
 
 		switch (estado_atual) {
 
